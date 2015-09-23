@@ -37,7 +37,7 @@ p {
   }
 }
 a {
-  color: #42dca3;
+  color: orange;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -45,7 +45,7 @@ a {
 a:hover,
 a:focus {
   text-decoration: none;
-  color: #1d9b6c;
+  color: #996300;
 }
 .light {
   font-weight: 300;
@@ -155,16 +155,16 @@ a:focus {
   border-radius: 0;
 }
 .btn-default {
-  border: 1px solid #42dca3;
-  color: #42dca3;
+  border: 1px solid orange;
+  color: orange;
   background-color: transparent;
 }
 .btn-default:hover,
 .btn-default:focus {
-  border: 1px solid #42dca3;
+  border: 1px solid orange;
   outline: none;
   color: black;
-  background-color: #42dca3;
+  background-color: orange;
 }
 ul.banner-social-buttons {
   margin-top: 0;
