@@ -101,7 +101,7 @@ input[type=checkbox]:checked + label:before {
 
 .layer:nth-child(2) {
   position:relative;
-  margin-top:-22px;
+  margin-top:-23px;
 }
 
 
