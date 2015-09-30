@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Parallax.js | Simple Example</title>
+
+	<!-- Behavioral Meta Data -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+	<!-- Styles -->
+	<link rel="stylesheet" type="text/css" href="css/binoculars.css"/>
+
+</head>
+<body>
+
+	<div id="container" class="container">
+		<ul id="scene" class="scene" style="overflow:hidden;">
+			<li class="layer" style="position:absolute;width:2000px;margin-top:-600px;margin-left:-700px" data-depth="5.0"><img src="img/photo.jpeg"></li>
+			<li class="layer" style="position:relative;margin-top:-21px;"><img src="img/binoculars.png"></li>
+		</ul>
+	</div>
+
+	<!-- Scripts -->
+	<script src="js/parallax.js"></script>
+	<script>
+
+	// Pretty simple huh?
+	var scene = document.getElementById('scene');
+	var parallax = new Parallax(scene);
+
+	</script>
+
+</body>
+</html>
