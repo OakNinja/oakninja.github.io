@@ -1,0 +1,36 @@
+.masthead {
+  overflow: hidden;
+  height: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  background: url(/img/introbg.jpg);
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  .container {
+    flex-wrap: wrap;
+  }
+  .button-container {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: center;
+  }
+}
+@media (min-width: 768px) {
+  .masthead {
+    height: 100%;
+    padding: 0;
+  }
+}
+
+.about-image img {
+  padding-top: 20px;
+  width: 30%;
+}
