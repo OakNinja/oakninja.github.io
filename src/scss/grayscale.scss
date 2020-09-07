@@ -95,7 +95,7 @@ a:focus {
 .btn-circle {
   width: 70px;
   height: 70px;
-  border: 2px solid $gray-500;
+  //border: 2px solid $gray-500;
   border-radius: 100% !important;
   font-size: 40px;
   color: $primary;
@@ -112,12 +112,14 @@ a:focus {
   i.fa {
     vertical-align: middle;
     font-size: 48px;
+    line-height: 70px;
+    display: block;
   }
   &:hover,
   &:focus {
     outline: none;
     //color: $offwhite;
-    background: rgba(255, 255, 255, 0.1);
+    //background: rgba(255, 255, 255, 0.1);
     i.fa {
       -webkit-animation-name: pulse;
       -moz-animation-name: pulse;
